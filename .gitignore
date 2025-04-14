@@ -35,6 +35,7 @@ out/
 
 # Logs
 *.log
+npm-debug.log*
 
 # OS-specific
 .DS_Store
@@ -42,11 +43,15 @@ Thumbs.db
 
 # Application-specific
 .env
-application.yml
+.env.*
 application.properties
+application.yml
+*.key
+*.pem
+*.crt
+kakao-config.js
 
 # Node (frontend)
 node_modules/
 dist/
-
-.env
+coverage/
